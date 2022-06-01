@@ -16,7 +16,7 @@ RUN apt-get update && \
 
 COPY package.json .
 
-RUN npm install nodemailer -g && npm install qrcode-terminal  npm install pm2 -g 
+RUN npm install && npm install qrcode-terminal  npm install pm2 -g 
 
 COPY . .
 
