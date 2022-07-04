@@ -3670,7 +3670,7 @@ _*🇯🇵 : このボットの機能のリスト*_.
   _⫹⫺ Library : Baileys-Md_
   _⫹⫺ Version : 2.0.0_
   _⫹⫺ Language : Javascript_
-  _⫹⫺ Author : Yusuf_
+  _⫹⫺ Author : Risky_
   _⫹⫺ Date Server :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}_
   _⫹⫺ Time Sever : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}_   
   _⫹⫺ Runtime : ${runtime(process.uptime())}_
@@ -4008,7 +4008,7 @@ _*🇯🇵 : このボットの機能のリスト*_.
 // MODEL MENU SEKARANG : LOC \\
 
 //━━━━━━━━━━━━━━━[ MENU LOC ]━━━━━━━━━━━━━━━\\
-let btn = [{ urlButton: { displayText: 'YouTube', url: 'https://m.youtube.com/channel/UCHIModder'} }, { urlButton: { displayText: 'Owner Bot', url: 'https://wa.me/6285770017326'} }, { quickReplyButton: { displayText: 'Owner', id: 'owner', } }, { quickReplyButton: { displayText: 'Donate', id: 'donate', } }]
+let btn = [{ urlButton: { displayText: 'YouTube', url: 'https://youtube.com/channel/UC_dYeKNRug2fKuS9NX58h3w'} }, { urlButton: { displayText: 'Owner Bot', url: 'https://wa.me/6282173242194'} }, { quickReplyButton: { displayText: 'Owner', id: 'owner', } }, { quickReplyButton: { displayText: 'Donate', id: 'donate', } }]
   zaki.send5ButLoc(m.chat, anu, zaki.user.name, global.gambar, btn)
 //━━━━━━━━━━━━━━━[ MENU IMG ]━━━━━━━━━━━━━━━\\
 /*let message = await prepareWAMessageMedia({ image: fs.readFileSync('./media/menu.jpg') }, { upload: zaki.waUploadToServer })
@@ -4054,17 +4054,17 @@ case 'owner': case 'creator': {
     + 'VERSION:3.0\n' 
     + 'N:;YusufKun;;;'
     + 'FN:YusufKun\n'
-    + 'ORG:𝙸 𝙰𝚖 Yusuf;\n' //Nama Kalian
+    + 'ORG:𝙸 𝙰𝚖 RISKY;\n' //Nama Kalian
     + 'item1.TEL;type=CELL;type=VOICE;waid=6285770017326:+62 857-7001-7326\n' //Nomor Kalian
-    + 'item1.X-ABLabel:Creator TheGreatBot - MDt\n' //Info Kalian
-    + 'item2.EMAIL;type=INTERNET:bostonb859@gmail.com\n' // Email Kalian
+    + 'item1.X-ABLabel:Creator TheIkyBot - MDt\n' //Info Kalian
+    + 'item2.EMAIL;type=INTERNET:riskydarlis321@gmail.com\n' // Email Kalian
     + 'item2.X-ABLabel:Email\n'
-    + 'item3.URL:https://instagram.com/\n' //Ig Kalian Atau Web Kalian
+    + 'item3.URL:https://instagram.com/riskydarlis321\n' //Ig Kalian Atau Web Kalian
     + 'item3.X-ABLabel:Instagram\n'
     + 'item4.ADR:;;China;;;;\n' //Negara Kalian
     + 'item4.X-ABLabel:Region\n'
     + 'END:VCARD'
-zaki.sendMessage(m.chat, { contacts: { displayName: '𝙸 𝙰𝚖 Yusuf', contacts: [{ vcard }] } }, { quoted: m })
+zaki.sendMessage(m.chat, { contacts: { displayName: '𝙸 𝙰𝚖 Risky', contacts: [{ vcard }] } }, { quoted: m })
             }
 break 
 
